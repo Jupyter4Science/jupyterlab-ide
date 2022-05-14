@@ -4,8 +4,7 @@ USER root
 
 # install any user packages defined in environment.yml
 WORKDIR "/home/${NB_USER}/work"
-COPY environment.yml .
-RUN mamba install --quiet --yes --channels conda-forge \
+RUN mamba install --quiet --yes --channel conda-forge \
   'jupyterlab-variableinspector' \
   'jupyterlab-unfold' \
   'jupyterlab-lsp' \
