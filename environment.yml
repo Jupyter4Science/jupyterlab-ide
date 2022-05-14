@@ -6,7 +6,6 @@ channels:
 dependencies:
   - jupyterlab-unfold # https://github.com/jupyterlab-contrib/jupyterlab-unfold
   - jupyterlab_html # https://github.com/QuantStack/jupyterlab-drawio
-  - jupyterlab-drawio # https://github.com/mflevine/jupyterlab_html
   - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
   - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
