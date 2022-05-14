@@ -1,9 +1,6 @@
 FROM jupyter/scipy-notebook:latest
 
-USER root
-
-# install any user packages defined in environment.yml
-WORKDIR "/home/${NB_USER}/work"
+WORKDIR $HOME
 RUN mamba install --quiet --yes --channel conda-forge \
   'jupyterlab-variableinspector' \
   'jupyterlab-unfold' \
@@ -11,6 +8,7 @@ RUN mamba install --quiet --yes --channel conda-forge \
   'jupyterlab-git' && \
   mamba install --quiet --yes --channel krinsman jupyterlab_html
 
-
-USER ${NB_UID}
-WORKDIR "${HOME}"
+RUN jupyter labextension enable jupyterlab-variableinspector --debug
+RUN jupyter labextension enable jupyterlab-unfold --debug
+RUN jupyter labextension enable jupyterlab-lsp --debug
+RUN jupyter labextension enable jupyterlab-git --debug
