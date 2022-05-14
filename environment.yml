@@ -1,6 +1,7 @@
 name: jupyterlab-ide
 channels:
   - conda-forge
+  - krinsman # jupyterlab_html
   - defaults
 dependencies:
   - jupyterlab-unfold # https://github.com/jupyterlab-contrib/jupyterlab-unfold
@@ -8,4 +9,4 @@ dependencies:
   - jupyterlab-drawio # https://github.com/mflevine/jupyterlab_html
   - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
-  - jupyterlab_variableinspector # https://github.com/lckr/jupyterlab-variableInspector
+  - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
