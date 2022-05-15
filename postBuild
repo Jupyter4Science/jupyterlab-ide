@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+import yaml, subprocess
+
+with open('environment.yml', 'r') as file:
+    env = yaml.safe_load(file)
+    
+for dependency in env['dependencies']:
+    subprocess.run(["jupyter", "labextension", "enable", dependency])
