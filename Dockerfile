@@ -1,10 +1,10 @@
 FROM jupyter/scipy-notebook:latest
 
 # retrieve files
-COPY binder/* .
+COPY binder .
 
 # install jupyterlab extensions
-RUN mamba env update --file environment.yml
+RUN mamba env update --file binder/environment.yml
 
 # enable the extensions
-RUN python postBuild
+RUN ./binder/postBuild

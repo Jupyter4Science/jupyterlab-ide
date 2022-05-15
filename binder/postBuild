@@ -2,8 +2,8 @@
 
 import yaml, subprocess
 
-with open('environment.yml', 'r') as file:
+with open('binder/environment.yml', 'r') as file:
     env = yaml.safe_load(file)
-    
+
 for dependency in env['dependencies']:
     subprocess.run(["jupyter", "labextension", "enable", dependency])
