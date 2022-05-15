@@ -1,6 +1,5 @@
 FROM jupyter/scipy-notebook:latest
 
-WORKDIR $HOME
 RUN mamba install --quiet --yes --channel conda-forge \
   'jupyterlab-variableinspector' \
   'jupyterlab-unfold' \
@@ -12,3 +11,4 @@ RUN jupyter labextension enable jupyterlab-variableinspector --debug
 RUN jupyter labextension enable jupyterlab-unfold --debug
 RUN jupyter labextension enable jupyterlab-lsp --debug
 RUN jupyter labextension enable jupyterlab-git --debug
+RUN jupyter labextension enable jupyterlab_html --debug
