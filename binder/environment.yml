@@ -4,6 +4,7 @@ channels:
   - krinsman # jupyterlab_html
   - defaults
 dependencies:
+  - jupyterlab >= 3.0
   - pyyaml # for postBuild script
   - jupyterlab-unfold # https://github.com/jupyterlab-contrib/jupyterlab-unfold
   - jupyterlab_html # https://github.com/QuantStack/jupyterlab-drawio
