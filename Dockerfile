@@ -1,7 +1,9 @@
 FROM jupyter/scipy-notebook:latest
 
 # retrieve files
-COPY binder .
+COPY binder/ .
+
+RUN ls
 
 # install jupyterlab extensions
 RUN mamba env update --file ./binder/environment.yml
