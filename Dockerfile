@@ -4,7 +4,7 @@ FROM jupyter/scipy-notebook:latest
 COPY binder .
 
 # install jupyterlab extensions
-RUN mamba env update --file binder/environment.yml
+RUN mamba env update --file ./binder/environment.yml
 
 # enable the extensions
 RUN ./binder/postBuild
