@@ -3,9 +3,8 @@ FROM jupyter/scipy-notebook:latest
 USER root
 
 # install texlive
-RUN apt-get update -y && \
-    apt-get upgrade -y && \ 
-    apt-get install texlive-full -y
+RUN apt-get update -y && apt-get upgrade -y
+RUN apt-get install -y texlive-full
 
 # retrieve files
 RUN mkdir binder

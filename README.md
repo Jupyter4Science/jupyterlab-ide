@@ -1,6 +1,6 @@
 # JupyterLab IDE for Notebook Developement
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicole-brewer/jupyterlab-ide/HEAD?labpath=introduction.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicole-brewer/jupyterlab-ide/HEAD?labpath=00_introduction.ipynb)
 
 This repository contains a development environment suitable for iterative and literate development in JupyterLab.
 
