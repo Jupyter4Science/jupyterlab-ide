@@ -1,4 +1,4 @@
-# awesome-jupyterlab
+# jupyterlab-ide
 
 A list of JupyterLab extensions that give it the same functionalities as a traditional IDE
 
