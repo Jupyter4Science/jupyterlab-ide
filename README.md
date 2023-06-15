@@ -18,6 +18,7 @@ For a full walkthrough of IDE features open [introduction.ipynb](https://nbviewe
 
 - table of contents
 - debugger
+- tab extension
 
 ### Extensions
 
