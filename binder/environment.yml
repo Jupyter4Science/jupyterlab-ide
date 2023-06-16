@@ -10,3 +10,4 @@ dependencies:
   - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
   - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
+  - jupyterlab-vim # https://github.com/jupyterlab-contrib/jupyterlab-vim
