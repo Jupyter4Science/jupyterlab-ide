@@ -27,7 +27,7 @@ For a full walkthrough of IDE features open [introduction.ipynb](https://nbviewe
 - [spellchecker](https://github.com/jupyterlab-contrib/spellchecker)
 - [jupyterlab-sidecar](https://github.com/jupyter-widgets/jupyterlab-sidecar)
 - [jupyterlab_code_formatter](https://github.com/ryantam626/jupyterlab_code_formatter)
-- [jupyterlab-vim](https://github.com/jwkvam/jupyterlab-vim)
+- [jupyterlab-vim](https://github.com/jupyterlab-contrib/jupyterlab-vim)
 - [jupyterlab-variableInspector](https://github.com/lckr/jupyterlab-variableInspector)
 
 ## Usage
