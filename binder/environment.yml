@@ -8,8 +8,5 @@ dependencies:
   - pyyaml # for postBuild script
   - jupyterlab-unfold # https://github.com/jupyterlab-contrib/jupyterlab-unfold
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
-  - jupyterlab-latex # https://github.com/jupyterlab/jupyterlab-latex
   - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
-  - jupyterlab-sidecar # https://github.com/jupyter-widgets/jupyterlab-sidecar
-  - jupyterlab_code_formatter # https://github.com/ryantam626/jupyterlab_code_formatter 
   - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
