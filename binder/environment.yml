@@ -7,7 +7,8 @@ dependencies:
   - jupyterlab >= 3.0
   - pyyaml # for postBuild script
   - jupyterlab-unfold # https://github.com/jupyterlab-contrib/jupyterlab-unfold
-  - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
+  - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
   - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
   - jupyterlab-vim # https://github.com/jupyterlab-contrib/jupyterlab-vim
+  - jupyterlab-spellchecker # https://github.com/jupyterlab-contrib/spellchecker
