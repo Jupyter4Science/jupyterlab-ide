@@ -10,3 +10,4 @@ dependencies:
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
   - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
   - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
+  - jupyterlab-spellchecker
