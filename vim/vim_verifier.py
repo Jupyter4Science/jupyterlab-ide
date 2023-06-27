@@ -5,19 +5,19 @@ import json
 
 def oneCon(check):
     if check:
-        print('Hooray!')
+        return True
     else:
-        print('Not quite :(')
-    return
+        print('Give it another try!')
+    return False
 
 
 
 def twoCon(check1,check2):
     if check1 and check2:
-        print('Hooray!')
+        return True
     else:
-        print('Not quite :(')
-    return
+        print('Sorry, try again')
+    return False
 
 
 
@@ -30,10 +30,10 @@ def exFive():
     
     # This checks that the correct number of cells are present and that the middle cell is the original cell
     if end-start == 9 and book['cells'][start+4]['source'][0] == '# Please insert some cells above me and below me!':
-        print('Hooray!')
+        return True
     else:
-        print('Boo!')
-    return
+        print('Maybe you forgot to save?')
+    return False
 
 
 
@@ -49,10 +49,10 @@ def exSeven():
     markdown = book['cells'][start+2]['cell_type']=='markdown'
     code = book['cells'][start+3]['cell_type']=='code'
     if raw and markdown and code:
-        print('Hooray!')
+        return True
     else:
-        print('Boo!')
-    return
+        print('Maybe you forgot to save?')
+    return False
 
 
 
@@ -64,10 +64,10 @@ def exThirteen():
     
     # This checks that the correct number of cells are present and that the middle cell is the original cell
     if end-start == 9 and book['cells'][start+4]['source'][0] == '# Please insert some cells above me and below me!':
-        print('Hooray!')
+        return True
     else:
-        print('Boo!')
-    return
+        print('Maybe you forgot to save?')
+    return False
 
 
 
@@ -93,10 +93,10 @@ def exFifteen():
         i = i + 1
     
     if hidden and shown:
-        print('Hooray!')
+        return True
     else:
-        print('Boo!')
-    return
+        print('Maybe you forgot to save?')
+    return False
 
 
 
