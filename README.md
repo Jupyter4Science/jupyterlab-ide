@@ -8,7 +8,7 @@ A list of JupyterLab extensions that give it the same functionalities as a tradi
 
 **Iterative Programming** takes place when you can explore your code and play with your objects and functions without needing to save, recompile, or leave your development environment. This has traditionally been achieved with a REPL or an interactive shell. The magic of Jupyter Notebooks is that the interactive shell is saved as a persistant document, so you don't have to flip back and forth between your code files and the shell in order to program iteratively.
 
-There are several editors and IDE's that are intended for notebook development, but JupyterLab is a natural choice because it is free and open source and most closely related to the Jupyter Notebooks/iPython projects. The chief motivation of this repository is enable an IDE-like development environment through the use of extensions. There are also expositional notebooks to show off the usefulness of these features.
+There are several editors and IDE's that are intended for notebook development, but JupyterLab is a natural choice because it is free and open source and most closely related to the Jupyter Notebooks/iPython projects. The chief motivation of this repository is to enable an IDE-like development environment through the use of extensions. There are also expositional notebooks to show off the usefulness of these features.
 
 ## IDE Features
 
@@ -20,15 +20,20 @@ For a full walkthrough of IDE features open [introduction.ipynb](https://nbviewe
 - debugger
 - tab extension
 
-### Extensions
+### Extensions in this repo
 
-- [jupyterlab-latex](https://github.com/jupyterlab/jupyterlab-latex) 
+- [jupyterlab-vim](https://github.com/jupyterlab-contrib/jupyterlab-vim) ([tutorial notebooks](https://github.com/nicole-brewer/jupyterlab-ide/tree/main/vim))
 - [jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp)
-- [spellchecker](https://github.com/jupyterlab-contrib/spellchecker)
-- [jupyterlab-sidecar](https://github.com/jupyter-widgets/jupyterlab-sidecar)
-- [jupyterlab_code_formatter](https://github.com/ryantam626/jupyterlab_code_formatter)
-- [jupyterlab-vim](https://github.com/jupyterlab-contrib/jupyterlab-vim)
 - [jupyterlab-variableInspector](https://github.com/lckr/jupyterlab-variableInspector)
+- [jupyterlab-spellchecker](https://github.com/jupyterlab-contrib/spellchecker)
+- [jupyterlab-unfold](https://github.com/jupyterlab-contrib/jupyterlab-unfold)
+- [jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git)
+
+### Other extensions
+
+- [jupyterlab-latex](https://github.com/jupyterlab/jupyterlab-latex)
+- [jupyterlab_code_formatter](https://github.com/ryantam626/jupyterlab_code_formatter)
+- [jupyterlab-sidecar](https://github.com/jupyter-widgets/jupyterlab-sidecar)
 
 ## Usage
 
