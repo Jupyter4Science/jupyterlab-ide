@@ -14,6 +14,7 @@ class Triangle:
         
         if (a==b) and (b==c):
             
+            
             Triangle.equilateral.append(self)
             
             
@@ -30,5 +31,7 @@ class Triangle:
         Q=-self.A+self.B+self.C
         U=self.A-self.B+self.C
         V=self.A+self.B-self.C
+        
         area = 0.25*np.sqrt(P*Q*U*V)
+        
         return area

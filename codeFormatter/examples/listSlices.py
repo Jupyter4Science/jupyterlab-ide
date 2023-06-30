@@ -1,4 +1,5 @@
 ### examples without steps
+# items from first to last
 bread[first : last]
 bread[first+1:last]
 
