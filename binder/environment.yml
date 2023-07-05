@@ -1,7 +1,6 @@
 name: jupyterlab-ide
 channels:
   - conda-forge
-  - krinsman # jupyterlab_html
   - defaults
 dependencies:
   - jupyterlab >= 3.0
@@ -9,6 +8,12 @@ dependencies:
   - jupyterlab-unfold # https://github.com/jupyterlab-contrib/jupyterlab-unfold
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
   - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
-  - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
-  - jupyterlab-vim # https://github.com/jupyterlab-contrib/jupyterlab-vim
   - jupyterlab-spellchecker # https://github.com/jupyterlab-contrib/spellchecker
+  - pip
+  - pip:
+    - jupyterlab-vim # https://github.com/jupyterlab-contrib/jupyterlab-vim
+    - jupyterlab-code-formatter # https://github.com/ryantam626/jupyterlab_code_formatter
+    - black # https://github.com/psf/black
+    - yapf # https://github.com/google/yapf
+    - autopep8 # https://github.com/hhatto/autopep8
+    - isort # https://github.com/pycqa/isort/
