@@ -11,3 +11,5 @@ dependencies:
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
   - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
   - jupyterlab-spellchecker #https://github.com/jupyterlab-contrib/spellchecker
+  - pip: #installs a package with pip during environment creation
+    - jedi-language-server
