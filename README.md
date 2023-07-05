@@ -22,18 +22,27 @@ For a full walkthrough of IDE features open [introduction.ipynb](https://nbviewe
 
 ### Extensions in this repo
 
-- [jupyterlab-vim](https://github.com/jupyterlab-contrib/jupyterlab-vim) ([tutorial notebooks](https://github.com/nicole-brewer/jupyterlab-ide/tree/main/vim))
-- [jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp)
-- [jupyterlab-variableInspector](https://github.com/lckr/jupyterlab-variableInspector)
-- [jupyterlab-spellchecker](https://github.com/jupyterlab-contrib/spellchecker)
-- [jupyterlab-unfold](https://github.com/jupyterlab-contrib/jupyterlab-unfold)
+- [jupyterlab_code_formatter](https://github.com/ryantam626/jupyterlab_code_formatter)
+  - The jupyterlab code formatter extension adds code formatting support for external code formatters while using JupyterLab.
 - [jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git)
+  - The jupyterlab-git extension provides a tab allowing for users to use git features in the JupyterLab interface without launching the terminal.
+- [jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp)
+  - The LSP extension integrates language server protocols into JupyterLab for code linting, auto-completion, and much more.
+- [jupyterlab-spellchecker](https://github.com/jupyterlab-contrib/spellchecker)
+  - The jupyterlab-spellchecker extension provides a spell checker for markdown cells and .md files.
+- [jupyterlab-unfold](https://github.com/jupyterlab-contrib/jupyterlab-unfold)
+  - The jupyterlab-unfold extension provides an IDE-like file browser for JupyterLab.
+- [jupyterlab-vim](https://github.com/jupyterlab-contrib/jupyterlab-vim) ([tutorial notebooks](https://github.com/nicole-brewer/jupyterlab-ide/tree/main/vim))
+  - The jupyterlab-vim extension provides Vim style keybindings for notebook editing.
 
 ### Other extensions
 
 - [jupyterlab-latex](https://github.com/jupyterlab/jupyterlab-latex)
-- [jupyterlab_code_formatter](https://github.com/ryantam626/jupyterlab_code_formatter)
+  - By providing a LaTeX preview, JupyterLab LaTeX provides a live-editing experience for LaTeX documents.
 - [jupyterlab-sidecar](https://github.com/jupyter-widgets/jupyterlab-sidecar)
+  - The Sidecar extension provides a widget like the output widget from ipywidget.
+- [jupyterlab-variableInspector](https://github.com/lckr/jupyterlab-variableInspector)
+  - The jupyterlab_variableinspector extension furnished JupyterLab with a variable inspector for active kernels.
 
 ## Usage
 
