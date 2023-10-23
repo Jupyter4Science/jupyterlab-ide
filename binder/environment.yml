@@ -4,12 +4,33 @@ channels:
   - krinsman # jupyterlab_html
   - defaults
 dependencies:
+  - numpy
+  - pandas
+  - ipywidgets
+  - pip
   - jupyterlab >= 3.0
   - pyyaml # for postBuild script
   - jupyterlab-unfold # https://github.com/jupyterlab-contrib/jupyterlab-unfold
   - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
   - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
   - jupyterlab-variableinspector # https://github.com/lckr/jupyterlab-variableInspector
-  - jupyterlab-spellchecker #https://github.com/jupyterlab-contrib/spellchecker
-  - pip: #installs a package with pip during environment creation
+#  - jupyterlab-vim # https://github.com/jupyterlab-contrib/jupyterlab-vim
+  - jupyterlab-spellchecker # https://github.com/jupyterlab-contrib/spellchecker
+  - pip:
+    - black==23.3.0
+#    - blue==0.9.1
+    - isort==5.12.0
+    - yapf==0.40.1
+    - autopep8==2.0.2
+    - jupyterlab-code-formatter #https://github.com/ryantam626/jupyterlab_code_formatter
     - jedi-language-server
+
+
+
+
+
+
+
+
+
+
